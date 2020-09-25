@@ -8,8 +8,8 @@ set -e
 echo "*** Testing WASM"
 node ./test/wasm.js
 
-echo "*** Testing ASM.js"
-node ./test/asm.js
+# echo "*** Testing ASM.js"
+# node ./test/asm.js
 
 echo "*** Testing via Jest"
 yarn polkadot-dev-run-test ./test/jest.spec.js
