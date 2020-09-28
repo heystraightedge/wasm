@@ -1,8 +1,9 @@
 {
+  "name": "@heystraightedge/wasm-crypto",
   "repository": "https://github.com/heystraightedge/wasm",
   "author": "Jaco Greeff <jacogr@gmail.com>",
   "license": "Apache-2",
-  "private": true,
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
@@ -15,7 +16,6 @@
     "build:release": "NIGHTLY=-2020-08-26 ./scripts/build-release.sh",
     "lint": "polkadot-dev-run-lint",
     "clean": "./scripts/clean.sh",
-    "postinstall": "polkadot-dev-yarn-only",
     "test": "./scripts/test-rust.sh"
   },
   "devDependencies": {
