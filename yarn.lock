@@ -1544,6 +1544,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@heystraightedge/wasm-crypto@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@heystraightedge/wasm-crypto@workspace:."
+  dependencies:
+    "@babel/core": ^7.11.6
+    "@polkadot/dev": ^0.55.51
+  languageName: unknown
+  linkType: soft
+
 "@istanbuljs/load-nyc-config@npm:^1.0.0":
   version: 1.1.0
   resolution: "@istanbuljs/load-nyc-config@npm:1.1.0"
@@ -15499,15 +15508,6 @@ fsevents@^1.2.7:
   checksum: e0370fbe779b1f15d74c3e7dffc0ce40b57b845fc7e431fab8a571958d5fd9c91eb0038a252604600e20786d117badea0cc4cf8816b8a6be6b9166b565ad6797
   languageName: node
   linkType: hard
-
-"root-workspace-0b6124@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "root-workspace-0b6124@workspace:."
-  dependencies:
-    "@babel/core": ^7.11.6
-    "@polkadot/dev": ^0.55.51
-  languageName: unknown
-  linkType: soft
 
 "rsvp@npm:^4.8.4":
   version: 4.8.5
